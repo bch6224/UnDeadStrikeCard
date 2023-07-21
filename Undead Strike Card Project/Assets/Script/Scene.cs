@@ -15,9 +15,14 @@ public class Scene : MonoBehaviour
             SceneSingleton = new Scene();
         }
         return SceneSingleton;
-    }    
-
-    
+    }
+    /*
+    void SingletonTest()
+    {
+        var x = Instance();
+        x.Loading();
+    }
+    */
     public void Loading()
     {      
         SceneManager.LoadScene(2);
